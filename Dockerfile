@@ -1,5 +1,7 @@
 FROM ubuntu:latest
 
+MAINTAINER aoi_shirase 
+
 RUN set -e \
 	&& apt-get update -y \
 	&& apt-get install -y git build-essential
